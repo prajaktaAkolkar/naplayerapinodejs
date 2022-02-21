@@ -4,7 +4,7 @@ const app = express();
 let port = process.env.PORT || 3000;
 const importData = require("./data.json");
 app.get('/',(req,res)=>{
-    res.send("Hello World!!!!")
+    res.send("Hello World!!!!!")
 });
 
 app.get('/players',(req,res)=>{
